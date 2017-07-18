@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#669900">
+
+    <Button
+        android:id="@+id/restaurant_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:text="1학생회관(1생)"
+        android:textStyle="bold"
+        android:textSize ="25dp"
+        android:layout_marginTop="80dp"
+        android:background="#99cc00"
+        android:typeface="monospace"/>
+
+    <Button
+        android:id="@+id/restaurant_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:text="2학생회관(2생)"
+        android:textStyle="bold"
+        android:textSize ="25dp"
+        android:layout_marginTop="80dp"
+        android:background="#99cc00"
+        android:typeface="monospace"/>
+
+    <Button
+        android:id="@+id/restaurant_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:text="햇들마루"
+        android:textStyle="bold"
+        android:textSize ="25dp"
+        android:layout_marginTop="80dp"
+        android:background="#99cc00"
+        android:typeface="monospace"/>
+</LinearLayout>
